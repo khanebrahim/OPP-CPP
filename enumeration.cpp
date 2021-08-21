@@ -8,4 +8,5 @@ int main(){
     day1 =fri;
     cout<<"day1 :"<<day1<<endl;
     getchar();
+    
 }
