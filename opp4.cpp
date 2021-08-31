@@ -8,11 +8,17 @@ class CSE
     void display(){
             cout <<category <<" " <<salary <<endl;
     }
+    void setValue(int x ,double y){
+        category = x;
+        salary = y;
+    }
 };
 int main(){
-    CSE Parves;
-    Parves.category =103;
-    Parves.salary =4000;
-   Parves.display();
+    CSE Parvez, Sadi;
+    Parvez.setValue(101,50000);
+    Parvez.display();
+    Sadi.setValue(102,56000);
+    Sadi.display();
+  
 
 }
