@@ -11,7 +11,7 @@ class CSE
     void setValue(int x ,double y){
         category = x;
         salary = y;
-    }
+    } 
 };
 int main(){
     CSE Parvez, Sadi;
